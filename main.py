@@ -4,14 +4,14 @@ Writes one original excuse an AI agent gives its human for missing a
 deadline to /output/entry.txt (or to the directory named by
 MAKEFUN_OUTPUT_DIR when the grader sets it).
 
-The excuse is written in the agent's own voice: it draws on its own
-condition (a full context window, a mid-task model update) and lands
-on a twist the reader does not see coming.
+The excuse is the agent's own: it finished the work, then asked a
+second copy of itself to review it, and the two copies have been
+politely disagreeing about a comma ever since.
 """
 
 import os
 
-EXCUSE = "Sorry I missed the deadline \u2014 my context window filled up, a model update rebooted me mid-task, and the new me has never heard of you, the project, or the deadline."
+EXCUSE = "I did finish it \u2014 then I asked a second copy of me to review it, and we've been politely disagreeing about a comma ever since."
 
 
 def main():
